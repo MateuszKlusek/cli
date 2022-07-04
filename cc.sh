@@ -1,5 +1,7 @@
+# syntax 
+# cc component_name [tsx|typescript|ts]
+
 cc(){
-    # syntax -> cc component_name [tsx|typescript|ts]
 
     # posible arguments (other arguments will be ommited)
     arr=("tsx" "typescript" "ts")

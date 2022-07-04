@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # syntax 
 # cc component_name [tsx|typescript|ts]
 

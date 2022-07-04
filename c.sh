@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # syntax
 # c port [http_method]
 
@@ -11,3 +13,9 @@ c(){
         curl -X ${(U)http_method} http://localhost:$2
     fi
 }
+
+function count() { 
+  total=$1 
+  for ((i=total; i>0; i--)); do sleep 1; printf "Time remaining $i secs \r"; done 
+  echo -e "\a" 
+} 

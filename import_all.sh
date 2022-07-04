@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # import in zshrc
 # before import initialize url
 # url is a path in a format to /dir1/dir2/dir3/*
